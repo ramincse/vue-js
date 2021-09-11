@@ -1,18 +1,8 @@
 new Vue({
     el: "#app",
     data: {
-        src: "https://picsum.photos/id/237/200/300",
-        alt: "This is a dog",
-        link: "https://www.google.com.bd/",
-        myText: "Hello Luffy",
-        myHtml: "<strong>Hello Ruhul</strong>",
-        user: "Luffye",
-        userAge: 16,
-        allowedAge: 18,
+        cars: ['Ford', 'Toyota', 'Corola'],
     },
     methods: {
-        changeUser() {
-            return this.user === 'Luffy' ? true : false;
-        }
     }
 });
