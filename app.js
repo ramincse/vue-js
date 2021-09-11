@@ -1,16 +1,8 @@
 new Vue({
     el: "#app",
     data: {
-        title: "Ruhul",
-        isItTrue: true,
-        cars: ['Ford', 'Toyota'],
-        robot: {
-            name: "Franky",
-        }
-    },
-    methods: {
-        greeting(){
-            return this.title;
-        }
+        src: "https://picsum.photos/id/237/200/300",
+        alt: "This is a dog",
+        link: "https://www.google.com.bd/",
     }
 });
