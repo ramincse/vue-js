@@ -1,6 +1,14 @@
 new Vue({
     el: "#app",
     data: {
-        title: "Rafee"
+        title: "Rafee",
+        isItTrue: true,
+        cars: ['Ford', 'Toyota'],
+        robot: {
+            name: "Franky",
+        },
+        greeting: ()=>{
+            return "Hellow World"
+        }
     }
 });
