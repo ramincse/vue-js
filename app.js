@@ -6,7 +6,7 @@ new Vue({
         link: "https://www.google.com.bd/",
         myText: "Hello Luffy",
         myHtml: "<strong>Hello Ruhul</strong>",
-        user: "Luffy",
+        user: "Luffye",
         userAge: 16,
         allowedAge: 18,
     },

@@ -10,8 +10,8 @@
 </head>
 <body>
     <div id="app">
-        <p v-if="changeUser()">You are good to go</p>        
-        <p v-else="userAge >= allowedAge">You are not good to go</p>        
+        <p v-show="user==='Luffy'">You are good to go</p>     
+        <p v-show="user!=='Luffy'">You are not good to go</p>     
     </div>
 
     <script src="app.js"></script>
