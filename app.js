@@ -1,8 +1,13 @@
 new Vue({
     el: "#app",
     data: {
-        cars: ['Ford', 'Toyota', 'Corola'],
+        name: "Luffy",
     },
     methods: {
-    }
+        update() {
+            setTimeout(() => {
+                this.name = 'Ruhul'
+            }, 2000)    
+        }
+    },
 });
