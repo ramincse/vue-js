@@ -11,7 +11,14 @@
 <body>
     <div id="app">
         <form v-on:submit.prevent="handleForm">
-            <input type="text">
+            <label>First Name</label>
+            <input type="text" v-model="formData.firstName">
+
+            <hr>
+
+            <label>Last Name</label>
+            <input type="text" v-model="formData.lastName">
+<hr>
             <button type="submit">Click</button>
         </form>
     </div>
