@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue JS Data Binding</title>
+
+    <script src="assets/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <a :href="address">VueJs</a>
+        <h1 :class="classes">Easy Learning</h1>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '#app',
+            data: {
+                address: 'https://www.google.com.bd/',
+                classes: ['one', 'two']
+            },
+        });
+    </script>
+</body>
+</html>
