@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue JS Two Way Data Binding</title>
+
+    <script src="assets/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        My age is {{age}}
+
+        <input type="text" v-model="age">
+    </div>
+    <script>
+        let app = new Vue({
+            el: '#app',
+            data: {
+                age: ''
+            },
+            methods:{
+            }
+        });
+    </script>
+</body>
+</html>
